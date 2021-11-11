@@ -7,8 +7,8 @@ export default function Login() {
       <div className='container mx-auto px-4 h-full'>
         <div className='flex content-center items-center justify-center h-full'>
           <div className='w-full lg:w-4/12 px-4'>
-            <div className='relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-200 border-0'>
-              <div className='rounded-t mb-0 px-6 py-6'>
+            <div className='relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-white border-0'>
+              <div className='rounded-t mb-0 px-2 py-2'>
                 <div className='flex grid content-center items-center justify-center '>
                   <img
                     alt='...'
@@ -38,7 +38,7 @@ export default function Login() {
                       <input
                         type='text'
                         placeholder='Email'
-                        class='px-3 py-3 placeholder-blueGray-800 text-blueGray-600 relative bg-white bg-white rounded text-sm shadow outline-none focus:outline-none focus:shadow-outline w-full pl-10'
+                        class='px-3 py-3 placeholder-blueGray-800 text-blueGray-600 relative bg-input rounded text-sm shadow outline-none focus:outline-none focus:shadow-outline w-full pl-10'
                       />
                     </div>
                   </div>
@@ -57,21 +57,9 @@ export default function Login() {
                       <input
                         type='text'
                         placeholder='Telefono'
-                        class='px-3 py-3 placeholder-blueGray-800 text-blueGray-600 relative bg-white bg-white rounded text-sm shadow outline-none focus:outline-none focus:shadow-outline w-full pl-10'
+                        className='px-3 py-3 placeholder-blueGray-800 text-blueGray-600 relative bg-input rounded text-sm shadow outline-none focus:outline-none focus:shadow-outline w-full pl-10'
                       />
                     </div>
-                  </div>
-                  <div>
-                    <label className='inline-flex items-center cursor-pointer'>
-                      <input
-                        id='customCheckLogin'
-                        type='checkbox'
-                        className='form-checkbox border-0 rounded text-blueGray-700 ml-1 w-5 h-5 ease-linear transition-all duration-150'
-                      />
-                      <span className='ml-2 text-sm font-semibold text-blueGray-600'>
-                        Remember me
-                      </span>
-                    </label>
                   </div>
 
                   <div className='text-center'>
