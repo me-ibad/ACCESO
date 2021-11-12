@@ -20,7 +20,7 @@ export default function Login() {
               </div>
               <div className='flex-auto px-4 lg:px-10 py-10 pt-0'>
                 <div className='flex text-black mb-3 font-bold'>
-                  <div>Version: &nbsp;</div>
+                  <div className='font-styl'>Version: &nbsp;</div>
                   <label class='switch'>
                     <input type='checkbox' id='togBtn' />
                     <div class='slider round'>
