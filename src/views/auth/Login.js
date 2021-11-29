@@ -16,7 +16,7 @@ export default function Login() {
                     src={require('assets/img/bg2.png').default}
                   />
                 </div>
-                <hr className='mt-6 border-b-1 border-blueGray-300' />
+                <hr className='border-b-1 border-blueGray-300' />
               </div>
               <div className='flex-auto px-4 lg:px-10 py-10 pt-0'>
                 <div className='flex text-black mb-3 font-bold'>
@@ -38,7 +38,7 @@ export default function Login() {
                       <input
                         type='text'
                         placeholder='Email'
-                        class='px-3 py-3 placeholder-blueGray-800 text-blueGray-600 relative bg-input rounded text-sm shadow outline-none focus:outline-none focus:shadow-outline w-full pl-10'
+                        class='px-3 py-3 font-styl placeholder-blueGray-800 text-blueGray-600 relative bg-input rounded text-sm shadow outline-none focus:outline-none focus:shadow-outline w-full pl-10'
                       />
                     </div>
                   </div>
